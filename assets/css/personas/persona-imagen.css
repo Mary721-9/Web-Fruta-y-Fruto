@@ -1,0 +1,40 @@
+.persona__imagen--andrea {
+    background: url(../../img/personas/andrea.jpg);
+}
+
+.persona__imagen--marcela {
+    background: url(../../img/personas/marcela.jpg);
+}
+
+.persona__imagen--roberta {
+    background: url(../../img/personas/roberta.jpg);
+}
+
+.persona__imagen {
+    background: center / no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    border: solid .05px;
+}
+
+@media screen and (min-width: 0) {
+    .persona__imagen {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .persona__imagen {
+        height: 230px;
+        width: 230px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .persona__imagen {
+        height: 300px;
+        width: 300px;
+    }
+}
